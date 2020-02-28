@@ -1,22 +1,22 @@
 // Load required packages
-var passport = require('passport');
-var JwtStrategy = require('passport-jwt').Strategy;
-var ExtractJwt = require('passport-jwt').ExtractJwt;
-require('dotenv').load();
+const passport = require('passport');
+const JwtStrategy = require('passport-jwt').Strategy;
+const ExtractJwt = require('passport-jwt').ExtractJwt;
+require('dotenv').config();
 
-var opts = {};
-opts.jwtFromRequest = ExtractJwt.fromAuthHeaderWithScheme("jwt");
-opts.secretOrKey = process.env.SECRET_KEY;
+const opt = {
+    jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken("jwt"),
+    secretOrKey: process.env.SECRET
+};
 
-passport.use(new JwtStrategy(opts, function(jwt_payload, done) {
+passport.use(
+    new JwtStrategy(opt, function(jwt_payload, done) {
         var user = db.find(jwt_payload.id);
-
-        if (user) {
-            done(null, user);
-        } else {
-            done(null, false);
-        }
+    if (user) {
+        done(null, user);
+    } else {
+        done(null, false);
+    }
 }));
-
 exports.isAuthenticated = passport.authenticate('jwt', { session : false });
-exports.secret = opts.secretOrKey ;
+exports.secret = opt.secretOrKey ;
