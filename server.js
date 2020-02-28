@@ -143,11 +143,10 @@ router.route('/movies')
         getBadRouteJSON(req, res, "/movies");
     });
 
+app.use('/', router);
 app.use(function (req, res) {
     getBadRouteJSON(req, res, "this URL path");
 })
-
-app.use('/', router);
 app.listen(process.env.PORT || 8080);
 
 module.exports = app; // for testing
