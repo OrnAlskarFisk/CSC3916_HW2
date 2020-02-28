@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="changed environment variable from SECRET to UNIQUE_KEY">
+    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="commit 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
       <workItem from="1550442217274" duration="1000" />
       <workItem from="1582854774791" duration="3799000" />
       <workItem from="1582867755665" duration="9719000" />
-      <workItem from="1582916494925" duration="268000" />
+      <workItem from="1582916494925" duration="809000" />
     </task>
     <task id="LOCAL-00001" summary="fixed hoek">
       <created>1582855297719</created>
@@ -148,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582911656073</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit 1">
+      <created>1582916875759</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582916875759</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +181,8 @@
     <MESSAGE value="commit 2" />
     <MESSAGE value="commit 3" />
     <MESSAGE value="changed environment variable from SECRET to UNIQUE_KEY" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed environment variable from SECRET to UNIQUE_KEY" />
+    <MESSAGE value="commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="956" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582867593584">
@@ -184,10 +193,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="549" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1582855596646" />
-    <state x="450" y="38" key="CommitChangelistDialog2" timestamp="1582911654792">
+    <state x="631" y="42" key="CommitChangelistDialog2" timestamp="1582917343547">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="450" y="38" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1582911654792" />
+    <state x="631" y="42" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1582917343547" />
     <state width="766" height="281" key="GridCell.Tab.0.bottom" timestamp="1582915594056">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -208,10 +217,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="994" y="143" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1582876038722" />
-    <state x="394" y="176" key="Vcs.Push.Dialog.v2" timestamp="1582911659697">
+    <state x="394" y="176" key="Vcs.Push.Dialog.v2" timestamp="1582916908839">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="394" y="176" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1582911659697" />
+    <state x="394" y="176" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1582916908839" />
     <state x="608" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582876024817">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
