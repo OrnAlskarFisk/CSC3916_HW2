@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha --timeout 10000 --exit",
-    "start": ".env; node server.js"
+    "start": "source .env; node server.js"
   },
   "author": "Shawn McCarthy",
   "license": "ISC",
