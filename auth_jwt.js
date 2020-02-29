@@ -18,5 +18,5 @@ passport.use(
         done(null, false);
     }
 }));
-exports.isAuthenticated = passport.authenticate('jwt', { session : false });
+exports.isAuthenticated = passport.authenticate('jwt', { session : true });
 exports.secret = opt.secretOrKey ;
