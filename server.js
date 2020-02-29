@@ -130,7 +130,7 @@ router.route('/movies')
             res.json(getMoviesJSONObject(req, "movie saved"));
         })
     .put(
-        authJwtController.isAuthenticated,
+        //authJwtController.secret,
         function (req,res) {
             res.json(getMoviesJSONObject(req, "movie updated"));
         })
@@ -138,10 +138,10 @@ router.route('/movies')
         authController.isAuthenticated,
         function (req, res) {
             res.json(getMoviesJSONObject(req, "movie deleted"));
-        })
+        }
     .all(function (req, res) {
         getBadRouteJSON(req, res, "/movies");
-    });
+    }));
 
 app.use('/', router);
 app.use(function (req, res) {
