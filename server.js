@@ -1,4 +1,4 @@
-import express from "express";
+const express = require("express");
 const http = require('http');
 const bodyParser = require('body-parser');
 const passport = require('passport');

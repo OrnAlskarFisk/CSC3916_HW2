@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="server .env to unique key">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +85,7 @@
       <workItem from="1582854774791" duration="3799000" />
       <workItem from="1582867755665" duration="9719000" />
       <workItem from="1582916494925" duration="1853000" />
-      <workItem from="1582919677391" duration="4809000" />
+      <workItem from="1582919677391" duration="4975000" />
     </task>
     <task id="LOCAL-00001" summary="fixed hoek">
       <created>1582855297719</created>
@@ -166,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582917366149</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="server .env to unique key">
+      <created>1582937216365</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582937216365</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,10 +209,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="549" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1582855596646" />
-    <state x="631" y="42" key="CommitChangelistDialog2" timestamp="1582936648410">
+    <state x="631" y="42" key="CommitChangelistDialog2" timestamp="1582937215575">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="631" y="42" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1582936648410" />
+    <state x="631" y="42" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1582937215575" />
     <state width="766" height="281" key="GridCell.Tab.0.bottom" timestamp="1582915594056">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -228,10 +233,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="994" y="143" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1582876038722" />
-    <state x="394" y="176" key="Vcs.Push.Dialog.v2" timestamp="1582917369375">
+    <state x="394" y="176" key="Vcs.Push.Dialog.v2" timestamp="1582937220843">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="394" y="176" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1582917369375" />
+    <state x="394" y="176" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1582937220843" />
     <state x="608" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582876024817">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
