@@ -1,9 +1,9 @@
-var express = require('express');
-var http = require('http');
-var bodyParser = require('body-parser');
-var passport = require('passport');
-var authController = require('./auth');
-var authJwtController = require('./auth_jwt');
+import express from "express";
+const http = require('http');
+const bodyParser = require('body-parser');
+const passport = require('passport');
+const authController = require('./auth');
+const authJwtController = require('./auth_jwt');
 db = require('./db')(); //global hack
 var jwt = require('jsonwebtoken');
 
@@ -131,7 +131,7 @@ router.route('/movies')
         })
     .put(
         authJwtController.isAuthenticated,
-        function (req, res) {
+        function (req,res) {
             res.json(getMoviesJSONObject(req, "movie updated"));
         })
     .delete(

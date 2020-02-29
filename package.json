@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/hoek": "^9.0.3",
+    "@types/express": "^4.17.2",
     "body-parser": "^1.18.2",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
