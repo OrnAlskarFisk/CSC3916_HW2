@@ -9,15 +9,14 @@ opts.jwtFromRequest = ExtractJwt.fromAuthHeaderWithScheme("jwt");
 opts.secretOrKey = process.env.UNIQUE_KEY;
 
 passport.use(new JwtStrategy(opts, function (jwt_payload, done) {
-        userMgr.findUserById(jwt_payload)
-            .then(
-                function (user) {
+        var user = db.find(jwt_payload.id);
+
                     if (user)
                         done(null, user);
                     else
                         done(null, false);
-                });
+                
     }
 ));
 exports.isAuthenticated = passport.authenticate('jwt', { session : false });
-exports.secret = opts.secretOrKey ;
+exports.secret = opt.secretOrKey ;
