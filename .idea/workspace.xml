@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="temp change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +85,9 @@
       <workItem from="1582867755665" duration="9719000" />
       <workItem from="1582916494925" duration="1853000" />
       <workItem from="1582919677391" duration="9588000" />
+      <workItem from="1584060810216" duration="32000" />
+      <workItem from="1584061822083" duration="477000" />
+      <workItem from="1584157270262" duration="780000" />
     </task>
     <task id="LOCAL-00001" summary="fixed hoek">
       <created>1582855297719</created>
